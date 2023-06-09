@@ -17,13 +17,13 @@ Promptopia is full stack website where anyone can get templets of prompt and als
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/lalitkumawat1m/Promptopia.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd 
 ```
 
 Install dependencies
