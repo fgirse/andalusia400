@@ -60,8 +60,7 @@ const Team = ()  => {
       <div className="py- mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8 lg:py-20">
         <div className="space-y-5 sm:space-y-1">
           <div className="space-y-3 sm:mx-auto sm:max-w-xl lg:max-w-5xl">
-            
-          <div className="{archidaught.className} flex flex-col items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
               <Image src="/assets/images/logoWohngefuehl.png" width="200" height="20" alt="LogoAlt" />
             </div>
           </div>
@@ -131,6 +130,7 @@ const Team = ()  => {
           ))}
         </ul>
       </div>
+  
     </section>
   )}
   export default Team
