@@ -72,6 +72,7 @@
   }
 }
 
+
 /* Tailwind Styles */
 
 .app {
@@ -90,6 +91,9 @@
   @apply mt-5 text-5xl font-archidaught font-extrabold leading-[1.15] text-black sm:text-6xl lg:text-[8.33rem];
 }
 
+.head_text2 {
+  @apply mt-5 mb-20 text-3xl font-archidaught font-extrabold leading-[1.15] text-gray-500 sm:text-4xl lg:text-[5.33rem];
+}
 .orange_gradient {
   @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
 }
@@ -138,7 +142,7 @@
 
 /* Nav Component */
 .logo_text {
-  @apply max-sm:hidden font-satoshi font-semibold text-lg text-black tracking-wide;
+  @apply max-sm:hidden font-archidaught font-semibold text-lg text-gray-500 tracking-wide;
 }
 
 .dropdown {

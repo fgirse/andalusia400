@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import "@styles/tailwind.css"
 
 const people = [
   {
@@ -55,7 +56,7 @@ const Team = ()  => {
 
   
     return (
-    <section id="section-team" className="mt-[36vh] ">
+    <section id="section-team" className=" bg-red-500 mt-[36vh] ">
       <div className="py- mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8 lg:py-20">
         <div className="space-y-5 sm:space-y-1">
           <div className="space-y-3 sm:mx-auto sm:max-w-xl lg:max-w-5xl">
@@ -65,11 +66,11 @@ const Team = ()  => {
             </div>
           </div>
 
-          <p className="text-3xl sm-text-5xl md:text-7xl font-archidaught text-gray-700">Team</p>
+          <p className="head_text2 text-blue-700">Team</p>
         </div>
         <ul
           role="list"
-          className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:mt-10 lg:max-w-5xl lg:grid-cols-3"
+          className="mx-auto space-y-16 sm:grid md:grid-cols-2 sm:gap-16 sm:space-y-0 lg:mt-10 lg:max-w-5xl lg:grid-cols-3"
         >
           {people.map((person) => (
             <li key={person.name}>
@@ -84,7 +85,7 @@ const Team = ()  => {
                 <div className="space-y-2">
                   <div className="space-y-1 rounded-2xl p-1 text-3xl text-blue-100 font-black leading-6 lg:lg:bg-black/10">
                     <h3>{person.name}</h3>
-                    <p className="text-yellow-600">{person.role}</p>
+                    <p className="text-yellow-500 text-center font-archidaughter text-xl">{person.role}</p>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
                     <li>

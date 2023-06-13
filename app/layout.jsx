@@ -2,12 +2,13 @@ import '@styles/globals.css';
 
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
+import Team from '@sections/Team';
 
 
 
 export const metadata={
-    title:"Promptopia",
-    description:"Disover & Share AI Prompts"
+    title:"Wohntraum Andalusia",
+    description:"nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnmmmmmLanding Page"
 }
 
 const RootLayout = ({children}) => {
@@ -23,6 +24,7 @@ const RootLayout = ({children}) => {
           <Nav/>
          {children}
         </main>
+        <Team />
         </Provider>
       </body>
     </html>
