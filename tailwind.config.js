@@ -9,9 +9,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        satoshi: ['Satoshi', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
+        archidaught: ['Architects Daughter', 'sans-serif'],
+        bowlbySC: ['Bowlby One SC', 'sans-serif'],
+        inter: ['inter', 'sans-serif'],
+        satoshi: ['Satoshi', 'sans-serif']
       },
+    
+  
       colors: {
         'primary-orange': '#FF5722',
       }

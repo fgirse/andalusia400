@@ -2,6 +2,8 @@
   "name": "promptopia",
   "version": "0.1.0",
   "private": true,
+  "license": "opensource",
+
   "scripts": {
     "dev": "next dev",
     "build": "next build",
