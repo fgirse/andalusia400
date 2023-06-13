@@ -61,7 +61,7 @@ const Team = ()  => {
         <div className="space-y-5 sm:space-y-1">
           <div className="space-y-3 sm:mx-auto sm:max-w-xl lg:max-w-5xl">
             
-          <div className="{raleway.className} flex flex-col items-center justify-center">
+          <div className="{archidaught.className} flex flex-col items-center justify-center">
               <Image src="/assets/images/logoWohngefuehl.png" width="200" height="20" alt="LogoAlt" />
             </div>
           </div>

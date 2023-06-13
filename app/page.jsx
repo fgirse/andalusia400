@@ -1,5 +1,6 @@
 import Feed from "@components/Feed";
 import Team from "@sections/Team";
+import { archidaught } from '../utils/fonts';
 
 const Home = () => (
    <>
