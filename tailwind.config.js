@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const { fontFamily } = require('tailwindcss/defaultTheme');
+
 
 module.exports = {
   content: [
@@ -9,12 +11,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        archidaught: ['Architects Daughter', 'sans-serif'],
-        bowlbySC: ['Bowlby One SC', 'sans-serif'],
-        inter: ['inter', 'sans-serif'],
-        satoshi: ['Satoshi', 'sans-serif']
+        archidaught: ['var(--archidaught-font)', ...fontFamily.sans],
+        bouwlbyOneSC: ['var(--bouwlbyOneSC-font)', ...fontFamily.sans],
+        inter: ['var(--interSans-font)', ...fontFamily.sans],
+        satoshi: ['var(--satoshi-font)', 'ui-serif', 'Georgia'],
       },
-    
   
       colors: {
         'primary-orange': '#FF5722',

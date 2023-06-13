@@ -85,7 +85,7 @@ const Team = ()  => {
                 <div className="space-y-2">
                   <div className="space-y-1 rounded-2xl p-1 text-3xl text-blue-100 font-black leading-6 lg:lg:bg-black/10">
                     <h3>{person.name}</h3>
-                    <p className="text-yellow-500 text-center font-archidaughter text-xl">{person.role}</p>
+                    <p className="text-yellow-500 text-center font-archidaught text-xl">{person.role}</p>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
                     <li>
