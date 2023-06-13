@@ -93,7 +93,7 @@
 
 
 .head_text3 {
-  @apply mt-5 mb-20 text-3xl font-archidaught font-extrabold leading-[1.15] text-pink-500 sm:text-4xl lg:text-[5.33rem];
+  @apply mt-5 mb-20 text-3xl font-archidaught leading-[1.15] text-gray-500 sm:text-4xl lg:text-[5.33rem];
 }
 
 .orange_gradient {

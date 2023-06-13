@@ -3,13 +3,18 @@ import '@styles/globals.css';
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 import Team from '@sections/Team';
+import { Architects_Daughter } from 'next/font/google'
+
+const archidaught = Architects_Daughter({ subsets: ['latin'], weights: ['400'] });
 
 
 
 export const metadata={
     title:"Wohntraum Andalusia",
-    description:"nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnmmmmmLanding Page"
+    description:"Landing Page",
 }
+
+
 
 const RootLayout = ({children}) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import "@styles/tailwind.css"
+import { archidaught } from '../utils/fonts';
 
 const people = [
   {
@@ -61,12 +61,12 @@ const Team = ()  => {
         <div className="space-y-5 sm:space-y-1">
           <div className="space-y-3 sm:mx-auto sm:max-w-xl lg:max-w-5xl">
             
-          <div className="flex flex-col items-center justify-center">
+          <div className="{raleway.className} flex flex-col items-center justify-center">
               <Image src="/assets/images/logoWohngefuehl.png" width="200" height="20" alt="LogoAlt" />
             </div>
           </div>
 
-          <p className="head_text2 text-blue-700">Team</p>
+          <p className="head_text3 font-archidaught">Team</p>
         </div>
         <ul
           role="list"
@@ -74,7 +74,7 @@ const Team = ()  => {
         >
           {people.map((person) => (
             <li key={person.name}>
-              <div className="space-y-6">
+              <div className="head-text3 font-archidaught space-y-6">
                 <img
                   className="lg:border-5 mx-auto h-40 w-40 rounded-full lg:border-yellow-500 xl:h-56 xl:w-56"
                   src={person.imageUrl}
