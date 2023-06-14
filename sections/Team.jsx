@@ -22,7 +22,7 @@ function Team() {
                                     </div>
                                 </div>
                                 <div className="px-6 mt-16">
-                                    <div font-anjs>Nadine</div>
+                                    <div font-archidaught>Nadine</div>
                                     <p className="text-gray-800 text-sm text-center">Chief Financiel Officer</p>
                                     <p className="text-center text-gray-600 text-base pt-3 font-normal">Nadine ist </p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
