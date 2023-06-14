@@ -22,7 +22,7 @@ const Home = () => (
     <Feed />  
   </section>
   
-
+<Team />
    </>
 );
 

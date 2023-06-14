@@ -3,7 +3,6 @@ import '@styles/tailwind.css';
 
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
-import Team from '@sections/Team';
 
 export const metadata={
     title:"Wohntraum Andalusia",
@@ -25,7 +24,7 @@ const RootLayout = ({children}) => {
           <Nav/>
          {children}
         </main>
-        <Team />
+        
         </Provider>
       </body>
     </html>
