@@ -65,8 +65,8 @@ const Team = ()  => {
             </div>
           </div>
 
-          <p className="head_text3 font-archidaught">Team</p>
-        </div>
+          <p className={archidaught.className} ><span className="head_Text3lg:text-[6.66rem]">Team</span></p>
+        </div> 
         <ul
           role="list"
           className="mx-auto space-y-16 sm:grid md:grid-cols-2 sm:gap-16 sm:space-y-0 lg:mt-10 lg:max-w-5xl lg:grid-cols-3"
