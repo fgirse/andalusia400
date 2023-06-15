@@ -1,14 +1,14 @@
 import Link from "next/link";
-import ThemeChanger from "./DarkSwitch";
+//import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 
 const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
+    "über uns",
+    "Geschichte",
+    "Philosophie",
+    "",
     "Blog",
   ];
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/assets/images/logo.svg"
                         alt="N"
                         width="32"
                         height="32"
@@ -66,7 +66,7 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Get Started
+                        email senden
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -89,11 +89,11 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+          <Link href="/" className="px-6 py-2 text-white bg-amber-600 rounded-md md:ml-5">
+              email senden
           </Link>
 
-          <ThemeChanger />
+          {/*<ThemeChanger />*/}
         </div>
       </nav>
     </div>

@@ -144,7 +144,7 @@
 
 /* Nav Component */
 .logo_text {
-  @apply max-sm:hidden font-archidaught font-semibold text-lg text-gray-500 tracking-wide;
+  @apply max-sm:hidden font-archidaught text-lg text-gray-500 tracking-wide;
 }
 
 .dropdown {

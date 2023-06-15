@@ -35,22 +35,22 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
+    question: "Warum gilt eine Sperrfrist von 12 Monaten?",
+    answer: "Die Sperrfrist von 12 Monaten ist dem spaischen Gesetz §345 geschuldet , welcher besagt dass...",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
+    question: "Droht mir der Totalverlust meiner investierten Anzahlung?",
+    answer: "Nein, der Investitionsbetrag liegt auf einem Sperrkonto...",
   },
   {
-    question: "What is your refund policy? ",
+    question: "Was passiert wenn bei nicht Gefallen der Kauf der Immobilie nicht zustande kommt? ",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "Sollte der Kauf der Immobilie nicht zu Vertrag kommen,...",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "Ist eine Durchführung von ggf. nach dem Erwerb des Objektes gewünschten Modernisierungs- oder Sanierungsprojekten vertraglich an die Wohntraum Andalusia GmbH gebunden ? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Nein, es liegt Ihnen frei....",
   },
 ];
 

@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Container from "./container";
 
-import userOneImg from "../public/img/user1.jpg";
-import userTwoImg from "../public/img/user2.jpg";
-import userThreeImg from "../public/img/user3.jpg";
+import userOneImg from "../public/assets/images/user1.jpg";
+import userTwoImg from "../public/assets/images/user2.jpg";
+import userThreeImg from "../public/assets/images/user3.jpg";
 
 const Testimonials  = () => {
   return (
@@ -13,42 +13,40 @@ const Testimonials  = () => {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Share a real <Mark>testimonial</Mark>
-              that hits some of your benefits from one of your popular customer.
+             Ausgezeichnete Betreuung bei Kauf einer 4-Zimmer Wohnung in Marbella <Mark>Transparenz </Mark> wird bei diesem Dienstleister gross geschrieben!
+    
             </p>
 
             <Avatar
               image={userOneImg}
-              name="Sarah Steiner"
-              title="VP Sales at Google"
+              name="Sarah Goncales"
+              title="Key aacount Managerin aus Malaga"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Make sure you only pick the <Mark>right sentence</Mark>
-              to keep it short and simple.
+              Wir haben  grosses <Mark>Vertrauen</Mark>beim Kauf unsere Immobilie gespürt um es auf einen Punkt zu bringen!         to keep it short and simple.
             </p>
 
             <Avatar
               image={userTwoImg}
-              name="Dylan Ambrose"
-              title="Lead marketer at Netflix"
+              name="Carlos Ambrose"
+              title="Gastronom aus Zürich"
             />
           </div>
         </div>
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              This is an <Mark>awesome</Mark> landing page template I&apos;ve seen. I
-              would use this for anything.
+              Grosse Professionalität und ausgezeichnetes <Mark>handwerliche Kompetenz</Mark> bei den Sanuerungsarbeiten unsere neuen Immobilie.
             </p>
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Winn"
-              title="Co-founder of Acme Inc"
+              name="Gabrielle Sütterlin"
+              title="CFriseurmeisterin aus Lörrach"
             />
           </div>
         </div>

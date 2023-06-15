@@ -8,11 +8,11 @@ const Hero = () => {
     <>
       <Container className="bg-[url('/assets/images/andalusiaRedRoofs.jpg')] bg-cover bg-no-repeat h-[77vh]  flex flex-wrap rounded-2xl ">
       <div className={archidaught.className}>
-    <div className="lg:ml-[2vw]  mt-[-10vh] bg-gray-300/10 rounded-2xl px-3 py-3">
+    <div className="lg:ml-[20vw]  mt-[-12vh] bg-gray-300/10 rounded-2xl px-3 py-3">
     <h1 className='head_text text-center'>
       Wohntraum
       <br className='max-md:hidden' />
-      <span className='orange_gradient text-center'> Andalusia</span>
+      <span className='orange_gradient text-center'> Andalusia !!!</span>
     </h1>
     </div>
     <p className='desc text-center'>

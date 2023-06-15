@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
+import { archidaught } from '../utils/fonts';
 
 
 const Nav = () => {
@@ -32,7 +33,9 @@ const Nav = () => {
         height={60}
         className="object-contain"
         ></Image>
-        <p className="logo_text">Wohntraum Andalusia GmbH</p>
+        <div className={archidaught.className}>"
+        <p className="logo_text text-2xl">Wohntraum Andalusia GmbH</p>
+        </div>
       </Link>
       
       {/* Desktop Navigation */}
