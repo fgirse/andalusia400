@@ -6,21 +6,18 @@ import { archidaught } from '../utils/fonts';
 const Hero = () => {
   return (
     <>
-      <Container className="bg-[url('/assets/images/andalusiaRedRoofs.jpg')] bg-cover bg-no-repeat h-[77vh]  flex flex-wrap rounded-2xl ">
+      <Container className="h-[ 96vh ] bg-[url('/assets/images/redRoofs3.png')] bg-cover bg-no-repeat lg:h-[77vh] lg:bg-[url('/assets/images/andalusiaRedRoofs.jpg')] flex flex-wrap rounded-2xl ">
       <div className={archidaught.className}>
-    <div className="lg:ml-[20vw]  mt-[-12vh] bg-gray-300/10 rounded-2xl px-3 py-3">
-    <h1 className='head_text text-center'>
+    <div className="lg:ml-[20vw]  mt-[-12vh] rounded-2xl px-3 py-3">
+    
+    <h1 className='head_text text-center text-gray-100 px-3 rounded-2xl bg-black lg:text-black md:bg-transparent'>
       Wohntraum
       <br className='max-md:hidden' />
       <span className='orange_gradient text-center'> Andalusia !!!</span>
     </h1>
     </div>
-    <p className='desc text-center'>
- 
-    </p>
-    </div>
 
-       
+      </div> 
       </Container>
       <Container>
         <div className="flex flex-col justify-center">

@@ -1,5 +1,5 @@
 {
-  "name": "promptopia",
+  "name": "andalusia400",
   "version": "0.1.0",
   "private": true,
   "license": "opensource",
@@ -10,13 +10,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^13.4.5",
     "@emotion/css": "^11.10.6",
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.6",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.17",
+    "@next/font": "^13.4.5",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "autoprefixer": "10.4.14",
     "bcrypt": "^5.1.0",
@@ -29,5 +29,9 @@
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
     "tailwindcss": "3.3.2"
-  }
+  },
+  "description": "Landing Page *** Wohntraum Andalusia GmbH ***",
+  "main": "index.js",
+  "repository": "https://github.com/fgirse/andalusia400.git",
+  "author": "Dr. med. Frank Girse"
 }

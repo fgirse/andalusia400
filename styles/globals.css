@@ -88,7 +88,7 @@
 }
 
 .head_text {
-  @apply mt-5 text-5xl font-archidaught font-extrabold leading-[1.15] text-black sm:text-6xl lg:text-[8.33rem];
+  @apply mt-[45vh] lg:mt-5 text-5xl font-archidaught font-extrabold leading-[1.15] text-black sm:text-6xl lg:text-[8.33rem];
 }
 
 
