@@ -1,5 +1,5 @@
 import Link from "next/link";
-//import ThemeChanger from "./DarkSwitch";
+import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 
@@ -93,7 +93,7 @@ const Navbar = () => {
               email senden
           </Link>
 
-          {/*<ThemeChanger />*/}
+          <ThemeChanger />
         </div>
       </nav>
     </div>

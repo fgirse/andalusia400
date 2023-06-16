@@ -10,7 +10,7 @@ const Hero = () => {
       <div className={archidaught.className}>
     <div className="lg:ml-[20vw]  mt-[-12vh] rounded-2xl px-3 py-3">
     
-    <h1 className='head_text text-center text-gray-100 px-3 rounded-2xl bg-black/50 lg:text-gray-800 md:bg-transparent'>
+    <h1 className='head_text text-center text-gray-100 px-3 rounded-2xl bg-black/75 lg:text-gray-800 md:bg-transparent'>
       Wohntraum
       <br className='max-md:hidden' />
       <span className='orange_gradient text-center'> Andalusia !!!</span>
