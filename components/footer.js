@@ -33,7 +33,7 @@ export default function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Wohntraum Andalusia erbebt an sich den höchstqualitativen Anspruch Ihnen als Kunden den Traum einer Ihnen gerecht werdenden Immoblie zu verwirklichen. Transparenz & Vertrauen sind dabei die wichtigsten Meilensteine unsere Handelns.
+              Wohntraum Andalusia GmbH - Transparenz & Vertrauen sind die Meilensteine unserer Philosophy
             </div>
 
             <div className="mt-5">
