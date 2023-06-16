@@ -7,8 +7,8 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../public/assets/images/Bildschirmfoto01";
-import benefitTwoImg from "../public/assets/images/Bildschirmfoto 2023-06-16 um 12.30.50.png";
+import benefitOneImg from "../public/assets/images/Beispiel_02.png";
+import benefitTwoImg from "../public/assets/images/Beispiel_02.png";
 
 const benefitOne = {
   title: "Ablauf des Immobilienerwerbes",
