@@ -14,7 +14,6 @@ import { benefitOne, benefitTwo } from "../components/data";
 import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
-4
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
 import Faq from "../components/faq";
@@ -24,8 +23,6 @@ const Home = () => {
   return (
     <>
 
-
-      
       <Hero />
       <Image
       src="/assets/images/logoWohngefuehl.png"
@@ -36,7 +33,7 @@ const Home = () => {
       <div className={archidaught.className}>
               <SectionTitle pretitle="Wohntraum Andalusia AG"
         title=" Warum wir Ihnen Ihre Wohnträume in Andalusien erfüllen können!!!">
-        Wir die Wohntraum Andalusia AG erheben an uns die höchsten QualitätsansprücheAnspruch Ihnen als Kunden den Traum einer Ihnen gerecht werdenden Immoblie zu verwirklichen. Transparenz & Vertrauen sind dabei die wichtigsten Meilensteine unsere Handelns.
+        Wir die Wohntraum Andalusia GmbH erheben an uns die höchsten Qualitätsansprüche Ihnen als unsere Kunden, den Traum einer Ihnen gerecht werdenden Immoblie zu verwirklichen. Transparenz & Vertrauen sind dabei die wichtigsten Meilensteine unseres Handelns. 
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
@@ -55,8 +52,7 @@ const Home = () => {
       <SectionTitle  pretitle="FAQ" title="Die wichtigsten und die am Häufigsten gestellten Fragen">
         Transparenz ist die oberste Devise der Wohntraum Andalusia GmbH. Nur durch eine  vertrauensvolle Verbindung ist ein gemeisamer erfolgreicher Geschäftsabschluss möglich.
       </SectionTitle>
-      <Faq />
-                       ................................................                                                                    
+      <Faq />                                                                    
       <Footer />
       <PopupWidget /></div>
     </>

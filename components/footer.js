@@ -16,14 +16,14 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+        <div className="bg-amber-600/20 rounded-2xl px-3 grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-amber-700 dark:text-gray-100">
+              <Link href="/" className="flex items-center space-x-2 text-smm font-medium text-amber-700 dark:text-gray-100">
                     <Image
                       src="/assets/images/logoWohngefuehl.png"
-                      alt="N"
+                      alt="Logo"
                       width="120"
                       height="60"
                       className="w-20"
@@ -118,7 +118,7 @@ export default function Footer() {
             href="https://www.glazestock.com/"
             target="_blank"
             rel="noopener ">
-           4058 Basel - Switzerland
+           4058 Basel🇨🇭
           </a>
         </div>
       </Container>

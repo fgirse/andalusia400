@@ -6,7 +6,7 @@ import { archidaught } from '../utils/fonts';
 const Hero = () => {
   return (
     <>
-      <Container className="h-[ 96vh ] bg-[url('/assets/images/redRoofs3.png')] bg-cover bg-no-repeat lg:h-[77vh] lg:bg-[url('/assets/images/andalusiaRedRoofs.jpg')] flex flex-wrap rounded-2xl ">
+      <Container className="h-[ 100vh ] bg-[url('/assets/images/redRoofs3.png')] bg-cover bg-no-repeat lg:h-[77vh] lg:bg-[url('/assets/images/andalusiaRedRoofs.jpg')] flex flex-wrap rounded-2xl ">
       <div className={archidaught.className}>
     <div className="lg:ml-[20vw]  mt-[-12vh] rounded-2xl px-3 py-3">
     

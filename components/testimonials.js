@@ -27,7 +27,7 @@ const Testimonials  = () => {
         <div className="">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              Wir haben  grosses <Mark>Vertrauen</Mark>beim Kauf unsere Immobilie gespürt um es auf einen Punkt zu bringen!         to keep it short and simple.
+              Wir haben  grosses <Mark>Vertrauen</Mark>beim Kauf unsere Immobilie gespürt um es auf einen Punkt zu bringen!
             </p>
 
             <Avatar
@@ -45,8 +45,8 @@ const Testimonials  = () => {
 
             <Avatar
               image={userThreeImg}
-              name="Gabrielle Sütterlin"
-              title="CFriseurmeisterin aus Lörrach"
+              name="Gabriel Sütterlin"
+              title="Friseurmeister aus Lörrach"
             />
           </div>
         </div>
