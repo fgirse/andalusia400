@@ -24,12 +24,7 @@ const Home = () => {
     <>
 
       <Hero />
-      <Image
-      src="/assets/images/logoWohngefuehl.png"
-      height="80"
-      width="160"
-      alt="Logo/ Emblenm"      
-      />
+     
       <div className={archidaught.className}>
               <SectionTitle pretitle="Wohntraum Andalusia AG"
         title=" Warum wir Ihnen Ihre Wohnträume in Andalusien erfüllen können!!!">
