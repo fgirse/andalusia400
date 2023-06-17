@@ -34,7 +34,7 @@ const Home = () => {
               <SectionTitle pretitle="Wohntraum Andalusia AG"
         title=" Warum wir Ihnen Ihre Wohnträume in Andalusien erfüllen können!!!">
         Wir die Wohntraum Andalusia GmbH erheben an uns die höchsten Qualitätsansprüche Ihnen als unsere Kunden, den Traum einer Ihnen gerecht werdenden Immoblie zu verwirklichen. Transparenz & Vertrauen sind dabei die wichtigsten Meilensteine unseres Handelns. 
-      </SectionTitle>
+0      </SectionTitle>
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
