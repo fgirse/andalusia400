@@ -33,7 +33,7 @@ const Nav = () => {
         height={60}
         className="object-contain"
         ></Image>
-        <div className={archidaught.className}>"
+        <div className={archidaught.className}>
         <p className="logo_text text-2xl">Wohntraum Andalusia GmbH</p>
         </div>
       </Link>

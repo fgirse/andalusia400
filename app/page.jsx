@@ -1,24 +1,13 @@
 "use client";
 
-import Feed from "@components/Feed";
 import Team from "@sections/Team";
 import { archidaught } from '../utils/fonts';
-
-
 import Head from "next/head";
-import Hero from "../components/hero";
-import Navbar from "../components/navbar";
-import SectionTitle from "../components/sectionTitle";
-
 import { benefitOne, benefitTwo } from "../components/data";
-import Video from "../components/video";
-import Benefits from "../components/benefits";
-import Footer from "../components/footer";
-import Testimonials from "../components/testimonials";
-import Cta from "../components/cta";
-import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
+ "../components/popupWidget";
 import Image from "next/image"
+import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Footer, Form, Hero, Nav, Navbar, PopupWidget, SectionTitle,Testimonials, Video } from "@/components";
+
 const Home = () => {
   return (
     <>

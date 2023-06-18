@@ -21,7 +21,7 @@ const Hero = () => {
       </Container>
       <Container>
         <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
+          <div className="font-archidought text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-amber-700">2000+</span>{" "}
             customers worldwide
           </div>
