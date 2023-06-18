@@ -26,7 +26,7 @@ const Home = () => {
       <Hero />
      
       <div className={archidaught.className}>
-              <SectionTitle pretitle="Wohntraum Andalusia AG"
+          <SectionTitle
         title=" Warum wir Ihnen Ihre Wohnträume in Andalusien erfüllen können!!!">
         Wir die Wohntraum Andalusia GmbH erheben an uns die höchsten Qualitätsansprüche Ihnen als unsere Kunden, den Traum einer Ihnen gerecht werdenden Immoblie zu verwirklichen. Transparenz & Vertrauen sind dabei die wichtigsten Meilensteine unseres Handelns. 
 0      </SectionTitle>
