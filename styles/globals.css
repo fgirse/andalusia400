@@ -15,7 +15,7 @@
   position: fixed;
   display: flex;
   justify-content: center;
-  padding: 120px 24px 160px 24px;
+  padding: 12px 24px 12px 24px;
   pointer-events: none;
 }
 
@@ -76,7 +76,7 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-2;
 }
 
 .black_btn {
@@ -88,7 +88,7 @@
 }
 
 .head_text {
-  @apply mt-[45vh] lg:mt-5 text-5xl font-archidaught font-extrabold leading-[1.15] text-black sm:text-6xl lg:text-[8.33rem];
+  @apply mt-[10vh] lg:mt-16 text-5xl font-archidaught font-extrabold leading-[1.15] text-black sm:text-6xl lg:ml-[20vw] lg:text-[5.66rem];
 }
 
 

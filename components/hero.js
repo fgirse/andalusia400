@@ -6,9 +6,9 @@ import { archidaught } from '../utils/fonts';
 const Hero = () => {
   return (
     <>
-      <Container className="h-[ 100vh ] bg-[url('/assets/images/redRoofs3.png')] bg-cover bg-no-repeat lg:h-[77vh] lg:bg-[url('/assets/images/andalusiaRedRoofs.jpg')] flex flex-wrap rounded-2xl ">
+      <Container className="bg-center w-[90vw] h-[78vh] bg-[url('/assets/images/villageAndalusia.png')] bg-cover bg-no-repeat lg:h-[73vh] lg:bg-[url('/assets/images/Hero5.png')] lg:bg-contain flex flex-wrap rounded-2xl lg:w-[100vw] ">
       <div className={archidaught.className}>
-    <div className="lg:ml-[20vw]  mt-[-12vh] rounded-2xl px-3 py-3">
+    <div className="  mt-[-12vh] rounded-2xl px-3 py-3">
     
     <h1 className='head_text text-center text-gray-100 px-3 rounded-2xl bg-black/75 lg:text-gray-800 md:bg-transparent'>
       Wohntraum
@@ -27,19 +27,19 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="pt-2 text-gray-500 dark:text-gray-500">
               <AmazonLogo />
             </div>
-            <div className="text-gray-400 dark:text-gray-400">
+            <div className="text-gray-500 dark:text-gray-500">
               <VerizonLogo />
             </div>
-            <div className="text-gray-400 dark:text-gray-400">
+            <div className="text-gray-500 dark:text-gray-500">
               <MicrosoftLogo />
             </div>
-            <div className="pt-1 text-gray-400 dark:text-gray-400">
+            <div className="pt-1 text-gray-500 dark:text-gray-500">
               <NetflixLogo />
             </div>
-            <div className="pt-2 text-gray-400 dark:text-gray-400">
+            <div className="pt-2 text-gray-500 dark:text-gray-500">
               <SonyLogo />
             </div>
           </div>

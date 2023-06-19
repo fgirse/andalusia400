@@ -1,12 +1,13 @@
 import '@styles/globals.css';
-import '@styles/tailwind.css';
+import { Navbar, Provider, Footer } from "@components";
 
-import Nav from "@components/Nav";
-import Provider from "@components/Provider";
+
+
+
 
 export const metadata={
     title:"Wohntraum Andalusia",
-    description:"Landing Page",
+    description:"Landing Page",    
 }
 
 
@@ -16,16 +17,16 @@ const RootLayout = ({children}) => {
     <html lang="en">
       <body>
         <Provider>
-          <Nav />
+    
         <div className='main'>
            <div className='gradient'/>
         </div>
 
         <main className='app'>
-      
+      <Navbar />
          {children}
         </main>
-        
+        <Footer />
         </Provider>
       </body>
     </html>

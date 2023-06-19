@@ -1,14 +1,37 @@
 "use client";
 
-import Team from "@sections/Team";
 import { archidaught } from '../utils/fonts';
 import Head from "next/head";
 import { benefitOne, benefitTwo } from "../components/data";
- "../components/popupWidget";
 import Image from "next/image"
-import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Footer, Form, Hero, Nav, Navbar, PopupWidget, SectionTitle,Testimonials, Video } from "@/components";
+import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Form, Hero, Nav, Navbar, PopupWidget, Team, SectionTitle,Testimonials, Video } from "../components";
 
 const Home = () => {
+  return (
+    <section className='w-full flex-center flex-col'>
+      <h1 className="head_text text-center">
+        Discover & Share
+        <br className='max-md:hidden' />
+      <span className='orange_gradient text-center'> AI-Powered Prompts</span>
+      </h1>
+      <p className='desc text-center'>
+      Promptopia is an open-source AI prompting tool for modern world to
+      discover, create and share creative prompts.
+    </p>
+    <Feed/>
+    </section>
+  )
+}
+
+export default Home
+
+
+
+
+
+
+
+{/*const Home = () => {
   return (
     <>
 
@@ -36,43 +59,12 @@ const Home = () => {
       <SectionTitle  pretitle="FAQ" title="Die wichtigsten und die am Häufigsten gestellten Fragen">
         Transparenz ist die oberste Devise der Wohntraum Andalusia GmbH. Nur durch eine  vertrauensvolle Verbindung ist ein gemeisamer erfolgreicher Geschäftsabschluss möglich.
       </SectionTitle>
-      <Faq />                                                                    
-      <Footer />
+      <Faq />  
+      <Team />                                                                  
+      
       <PopupWidget /></div>
     </>
   );
 }
 
-export default Home;
-
-
-
-
-
-{/*const Home = () => (
-   <>
-  <section className='bg-[url("/assets/images/andalusiaRedRoofs.jpg")]
-   bg-cover bg-no-repeat h-[80vh]
-   w-full flex-center flex-col rounded-2xl'>
-    <div className={archidaught.className}>
-    <div className="mt-[-10vh] bg-gray-300/10 rounded-2xl px-3 py-3">
-    <h1 className='head_text text-center'>
-      Wohntraum
-      <br className='max-md:hidden' />
-      <span className='orange_gradient text-center'> Andalusia</span>
-    </h1>
-    </div>
-    <p className='desc text-center'>
- 
-    </p>
-    </div>
-    <Feed />  
-</section>
-  
-
-   </>
-);
-
-export default Home;*/}
-
-
+export default Home*/}
