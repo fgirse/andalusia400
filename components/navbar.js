@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -16,7 +15,8 @@ export default function Navbar()  {
   const navigation = [
     "Philosophie",
     "Geschichte",
-  ];
+    "Rechtliches",
+    "Kontakt"  ];
 
 
 const { data: session } = useSession();
@@ -47,7 +47,7 @@ const [toggleDropdown, setToggleDropdown] = useState(false);
                         alt="Logo-GmbH"
                         width="120"
                         height="60"
-                        className="w-20 lg:w-40 lg:ml-5"
+                        className="w-20 lg:w-40 lg:ml-[5vw]"
                       />
                     </span>
                     <span></span>
