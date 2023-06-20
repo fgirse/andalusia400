@@ -16,6 +16,7 @@ import Provider from "./Provider";
 import SectionTitle from"./sectionTitle";
 import Team from"./Team"
 import Testimonials from "./testimonials";
+import Timeline from "./Timeline.";
 import Video from"./video"
 
 
@@ -36,6 +37,7 @@ export {
     SectionTitle,
     Team,
     Testimonials,
+    Timeline,
     Video, 
 }
 

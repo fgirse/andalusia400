@@ -16,24 +16,25 @@ export default function Footer() {
   return (
     <div className="relative">
       <Container>
-        <div className="bg-amber-600/20 rounded-2xl px-3 grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
-          <div className="lg:col-span-2">
+      <div classname={archidaught.className}>
+        <div className="bg-slate-700 font-archidaught rounded-2xl px-3 grid max-w-screen-xl grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+          <div className="lg:col-span-2">                                                   
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-smm font-medium text-amber-700 dark:text-gray-100">
+              <Link href="/" className="flex items-center space-x-2 text-sm font-medium text-gray-700 dark:text-gray-100">
                     <Image
-                      src="/assets/images/logoWohngefuehl.png"
+                      src="/assets/images/LogoWA.svg"
                       alt="Logo"
                       width="120"
                       height="60"
-                      className="w-20"
+                      className="ml-2 w-28 h-12 lg:w-36"
                     />
-                  <span className={archidaught.className}>Wohntraum Andalusia GmbH</span>
+                  
               </Link>
             </div>
 
-            <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Wohntraum Andalusia GmbH - Transparenz & Vertrauen sind die Meilensteine unserer Philosophy
+            <div className="max-w-md mt-4 text-gray-300 dark:text-gray-400">
+               - Transparenz & Vertrauen sind die Meilensteine unseres Handelns
             </div>
 
             <div className="mt-5">
@@ -55,7 +56,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-300 rounded-md dark:text-gray-300 hover:text-gray-50 focus:text-gray-100 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
                     {item}
                 </Link>
               ))}
@@ -64,15 +65,15 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-300 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
                     {item}
                 </Link>
               ))}
             </div>
           </div>
           <div className="">
-            <div>Follow us</div>
-            <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+            <div className="text-gray-200">Follow us</div>
+            <div className="flex mt-5 space-x-5 text-gray-200 dark:text-gray-500">
               <a
                 href="https://twitter.com/web3templates"
                 target="_blank"
@@ -105,7 +106,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        <div className="my-10 text-sm text-center text-gray-400 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. All rights by{" "}
          {/*} <a
             href="https://web3templates.com/"
@@ -120,6 +121,7 @@ export default function Footer() {
             rel="noopener ">
            4058 Basel🇨🇭
           </a>
+        </div>
         </div>
       </Container>
       {/* Do not remove this */}
