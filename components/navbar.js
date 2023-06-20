@@ -33,14 +33,14 @@ const [toggleDropdown, setToggleDropdown] = useState(false);
 
   return (
     
-    <nav className="h-20 bg-gray-700 flex-between w-[100vw] mb-16 lg:mb-1 pt-3">
-    
+<nav className="h-20 bg-gray-700 flex-between w-[100vw] mb-16 lg:mb-1 pt-3">
+    <div className={archidaught.className}>
           <Disclosure>
           {({ open }) => (
             <>
           <div className="flex flex-wrap items-center justify-around w-full lg:w-auto">
                 <Link href="/">
-                  <span className="flex items-center space-x-2 text-xs sm:text-sm md:text-xl lg:text-2xl font-medium font-archidaught text-gray-50 dark:text-gray-100">
+                  <span className="flex items-center space-x-2 text-xs sm:text-sm md:text-xl lg:text-2xl font-medium  text-gray-50 dark:text-gray-100">
                     <span>
                       <Image
                         src="/assets/images/LogoWA.svg"
@@ -90,8 +90,9 @@ const [toggleDropdown, setToggleDropdown] = useState(false);
               </div>
             </>
           )}
+          
         </Disclosure>
-
+        </div>
 
         {/* menu  */}
         <div className="hidden text-center lg:flex lg:items-center">

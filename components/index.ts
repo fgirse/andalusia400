@@ -9,14 +9,14 @@ import Feed from"./Feed";
 import Footer from"./footer";
 import Form from"./Form";
 import Hero from"./hero";
-import Navbar from"./navbar";
+import Navigation from"./Navigation";
 import PopupWidget from"./popupWidget";
 import PromptCard from "./PromptCard";
 import Provider from "./Provider";
 import SectionTitle from"./sectionTitle";
 import Team from"./Team"
 import Testimonials from "./testimonials";
-import Timeline from "./Timeline.";
+import Timeline from "./Timeline";
 import Video from"./video"
 
 
@@ -30,7 +30,7 @@ export {
     Footer,
     Form,
     Hero,
-    Navbar,
+    Navigation,
     PopupWidget,
     PromptCard,
     Provider,

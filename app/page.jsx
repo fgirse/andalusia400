@@ -9,9 +9,9 @@ import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Form, Hero, Nav,
 const Home = () => {
   return (
     <>
-    <section className='w-full flex-center flex-col bg-no-repeat lg:h-[85vh] lg:bg-[url("/assets/images/andalusiaRedRoofs.jpg")] lg:bg-cover flex flex-wrap rounded-2xl lg:w-[95vw] '>
+    <section className='-mt-[8vh] h-[100vh] bg-[url("/assets/images/redRoofs3.png")] bg-cover w -full flex-center flex-col bg-no-repeat lg:h-[85vh] lg:bg-[url("/assets/images/andalusiaRedRoofs.jpg")] lg:bg-cover flex flex-wrap rounded-2xl lg:w-[95vw] lg:transform translate-y-[12vh] bg-red-500'>
       <div className={archidaught.className}>
-      <h1 className="head_text text-center lg:text-left lg:-mt-16 lg:mr-30">
+      <h1 className="transform -translate-y-[29vh] head_text text-center lg:text-left lg:-mt-16 lg:mr-30">
         Wohntraum
         <br 
         className='max-md:hidden' />
@@ -21,16 +21,30 @@ const Home = () => {
      
     <Feed/>
     </section>
-    <section id="section_Hero" className='bg-transparent' >  
+    <section id="section_Timeline" className='w-[100vw] h-auto bg-slate-700'> 
     <Hero />
-    <Image src="/assets/images/LogoWA.svg" height="80" width="120" alt="Logo WA" className='mt-5 mb-5 w-32 lg:w-80'/>
+   
+    <Image src="/assets/images/LogoWA.svg" height="80" width="120" alt="Logo WA" className='mt-5 mb-5 w-32 lg:w-36 mx-auto'/>
     <div className={archidaught.className}>
+    
           <SectionTitle
         title=" Warum wir Ihnen Ihre Wohnträume in Andalusien erfüllen können!!!">
         Wir die Wohntraum Andalusia SI erheben an uns die höchsten Qualitätsansprüche Ihnen als unsere Kunden, den Traum einer Ihnen gerecht werdenden Immoblie zu verwirklichen. Transparenz & Vertrauen sind dabei die wichtigsten Meilensteine unseres Handelns. 
       </SectionTitle>
       </div>
       </section>
+      <section id="section_Timeline" className='w-[100vw] h-auto bg-slate-700'>
+      <div className={archidaught.className}>
+      <Image src="/assets/images/LogoWA.svg" height="80" width="120" alt="Logo WA" className='mt-5 mb-5 w-32 lg:w-36 mx-auto'/>
+      <SectionTitle
+        pretitle="Chronologischer Ablauf eines Immobilienprojektes"
+        title="Immobilienkauf  Timeline">
+        Timeline zur Umsetzung Verwirklichung eines Immobilienprojektes mit der Wohntraum Andalusia SI.
+      </SectionTitle>
+       <Timeline />
+       </div>
+       </section>
+       
       <section id="section_Info1" className="">
                       <Benefits data={benefitOne} />
       </section>
@@ -41,7 +55,7 @@ const Home = () => {
        <section id="section_Video"className=''>
        <SectionTitle
         pretitle="Videodemonstration"
-        title="Demonstarationsbeispiel einer Musterimmobilie">
+        title="Demonstrationsbeispiel einer Musterimmobilie">
         In dieser Videodemonstration zeigen wir ein Musterbeispiel einer Immobilie, welche für den Eigner durch die Wohnraum Andalusia GmbH verwirklicht erfolgreich vermittelt wurde 
       </SectionTitle>
       <Video />
@@ -67,9 +81,7 @@ const Home = () => {
        <section id="section_Team" className=''>
        <Team />
        </section>
-       <section id="section_Timeline" className=''>
-       <Timeline />
-       </section>
+    
        <PopupWidget />
     </>
   )

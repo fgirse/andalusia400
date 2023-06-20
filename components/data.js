@@ -5,6 +5,9 @@ import {
   DevicePhoneMobileIcon,
   AdjustmentsHorizontalIcon,
   SunIcon,
+  AcademicCapIcon,
+  ArchiveBoxIcon,
+  BanknotesIcon,
 } from "@heroicons/react/24/solid";
 
 import benefitOneImg from "../public/assets/images/Bildschirmfoto 2023-06-16 um 18.00.50.png";
@@ -18,17 +21,17 @@ const benefitOne = {
     {
       title: "Vorbereitung",
       desc: "text text text...",
-      icon: <FaceSmileIcon />,
+      icon: <ArchiveBoxIcon />,
     },
     {
       title: "Notarielle Beglaubigung",
       desc: "text text text...",
-      icon: <ChartBarSquareIcon />,
+      icon: <BanknotesIcon />,
     },
     {
       title: "Uebergabe des Objektes",
       desc: "text text text text ...",
-      icon: <CursorArrowRaysIcon />,
+      icon: <AcademicCapIcon />,
     },
   ],
 };
