@@ -40,10 +40,11 @@ export default function NavbarDropdown() {
         integrity="sha512-qw2bX9KUhi7HLuUloyRsvxRlWJvj0u0JWVegc5tf7qsw47T0pwXZIk1Kyc0utTH3NlrpHtLa4HYTVUyHBr9Ufg=="
         crossOrigin="anonymous"
       />
-      <div className="w-full min-h-[150px] lg:min-h-[200px]">
+      <div className={archidaught.className}>
+      <div className="bg-slate-600 w-[100vw] min-h-[150px]">
 
      
-        <nav className="bg-slate-600 relative flex flex-wrap items-center justify-between px-8 py-6 mx-auto lg:justify-between">
+        <nav className=" relative flex flex-wrap items-center justify-between px-8 py-6 mx-auto lg:justify-between">
           {/* Logo  */}
           <div className={archidaught.className}>
           <Disclosure>
@@ -51,7 +52,7 @@ export default function NavbarDropdown() {
               <>
                 <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                   <Link href="#"
-                    className="w-24 sm:w-32 flex items-center space-x-2 text-2xl font-medium text-indigo-100 dark:text-gray-100">
+                    className="w-32 sm:w-32 md:w-52 flex items-center space-x-2 text-2xl font-medium text-indigo-100 dark:text-gray-100">
                       <Image src={LogoImg} alt="logo" />
                     
                   </Link>
@@ -92,15 +93,19 @@ export default function NavbarDropdown() {
             )}
             
           </Disclosure>
-                        </div>
+          </div>
+                        
           {/* menu  */}
+         
           <div className="hidden text-center lg:flex lg:items-center">
             <ul className="items-center justify-end flex-1 pt-6 lg:pt-0 list-reset lg:flex">
-                
+        
               <NavMenu navigation={navigation} />
+              
             </ul>
           </div>
         </nav>
+      </div>
       </div>
     </>
   );
@@ -109,19 +114,23 @@ export default function NavbarDropdown() {
 const NavMenu = (props) => {
   return (
     <>
+      
       {props.navigation.map((item, index) => {
         return (
           <div key={index}>
             {item.children && item.children.length > 0 ? (
+               <div className={archidaught.className}>
               <DropdownMenu
                 menu={item}
                 items={item.children}
                 mobile={props.mobile}
               />
+              </div>
             ) : (
               <MenuItem item={item} mobile={props.mobile} />
             )}
           </div>
+       
         );
       })}
     </>
@@ -134,7 +143,7 @@ const MenuItem = ({ item, mobile }) => {
       
         className={`
         text-gray-100 dark:text-gray-300 rounded-md
-    outline-none hover:text-gray-200 hover:bg-yellow-400 focus:text-gray-200  transition-all
+    outline-none hover:text-gray-200 hover:bg-yellow-600 focus:text-gray-200  transition-all
      focus:bg-yellow-700 dark:focus:bg-gray-800 focus:outline-none ${
        mobile
          ? "w-full block px-4 py-2 -ml-4"
@@ -161,7 +170,7 @@ const DropdownMenu = ({ menu, items, mobile }) => {
                 ? "w-full px-4 py-2 -ml-4"
                 : "inline-block px-4 py-2"
             }`}>
-            <span>{menu.title}</span>
+                                  <span>{menu.title}</span>
             <BellIcon className="w-4 h-4" />
           </Menu.Button>
           <Transition

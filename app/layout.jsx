@@ -1,5 +1,5 @@
 import '@styles/globals.css';
-import { Navigation, Provider, Footer } from "@components";
+import {Nav, Navigation, Provider, Footer } from "@components";
 
 
 
@@ -24,6 +24,7 @@ const RootLayout = ({children}) => {
 
         <main className='app'>
       <Navigation />
+      <Nav />
          {children}
         </main>
         <Footer />

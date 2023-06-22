@@ -1,6 +1,6 @@
 "use client";
 
-import { archidaught } from '../utils/fonts';
+import { archidaught, lontoutline } from '../utils/fonts';
 import Head from "next/head";
 import { benefitOne, benefitTwo } from "../components/data";
 import Image from "next/image"
@@ -9,18 +9,23 @@ import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Form, Hero, Nav,
 const Home = () => {
   return (
     <>
-    <section className='-mt-[8vh] h-[100vh] bg-[url("/assets/images/redRoofs3.png")] bg-cover w -full flex-center flex-col bg-no-repeat lg:h-[85vh] lg:bg-[url("/assets/images/andalusiaRedRoofs.jpg")] lg:bg-cover flex flex-wrap rounded-2xl lg:w-[95vw] lg:transform translate-y-[12vh] bg-red-500'>
-      <div className={archidaught.className}>
-      <h1 className="transform -translate-y-[29vh] head_text text-center lg:text-left lg:-mt-16 lg:mr-30">
+    <section className='h-[100%]'>
+      <div id="content" className='
+    bg-[url("/assets/images/redRoofs3.png")] <div className        bg-cover w-full flex-center flex-col bg-no-repeat md:bg-[url("/assets/images/villageAndalusia.png")]  lg:h-[85vh] lg:bg-[url("/assets/images/andalusiaRedRoofs.jpg")] lg:bg-cover flex flex-wrap lg:w-[100vw]'>
+      <div className={lontoutline.className}>
+      <h1 className="head_text bg-white/60 lg:bg-transparent text-center lg:text-[3rem]lg:text-left lg:ml-56">
         Wohntraum
-        <br 
+        <br
         className='max-md:hidden' />
       <span className='orange_gradient text-center'> Andalusia</span>
       </h1>
       </div>
-     
-    <Feed/>
+      
+
+      </div>
+      <Feed/>
     </section>
+
     <section id="section_Timeline" className='w-[100vw] h-auto bg-slate-700'> 
     <Hero />
    
