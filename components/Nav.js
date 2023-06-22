@@ -7,9 +7,11 @@ import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 import { archidaught } from '../utils/fonts';
 
 
+
+
 const Nav = () => {
 
-components/cta.js  const { data: session } = useSession();
+  const { data: session } = useSession();
 
   const [providers, setProviders] = useState(null);
   const [toggleDropdown, setToggleDropdown] = useState(false);
@@ -27,15 +29,13 @@ components/cta.js  const { data: session } = useSession();
     <nav className="flex-between w-full mb-16 pt-3">
       <Link href='/' className='
       flex gap-2 flex-center'>
-        <Image src='/assets/images/logoWohngefuehl.png'
+        <Image src='/assets/images/logo.svg'
         atl='logo'
-        width={120}
-        height={60}
+        width={30}
+        height={30}
         className="object-contain"
         ></Image>
-        <div className={archidaught.className}>
-        <p className="logo_text text-2xl">Wohntraum Andalusia GmbH</p>
-        </div>
+        <p className="logo_text">Promptopia</p>
       </Link>
       
       {/* Desktop Navigation */}

@@ -9,6 +9,7 @@ import Feed from"./Feed";
 import Footer from"./footer";
 import Form from"./Form";
 import Hero from"./hero";
+import Nav from"./Nav";
 import Navigation from"./Navigation";
 import PopupWidget from"./popupWidget";
 import PromptCard from "./PromptCard";
@@ -30,6 +31,7 @@ export {
     Footer,
     Form,
     Hero,
+    Nav,
     Navigation,
     PopupWidget,
     PromptCard,
