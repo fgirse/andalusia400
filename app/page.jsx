@@ -4,14 +4,13 @@ import { archidaught, lontoutline } from '../utils/fonts';
 import Head from "next/head";
 import { benefitOne, benefitTwo } from "../components/data";
 import Image from "next/image"
-import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Form, Hero, Nav, Navbar, PopupWidget, Team, SectionTitle,Testimonials,Timeline ,Video } from "../components";
+import { Benefits, Container, CTA, DarkSwitch, Data, Faq, Feed, Form, Hero, Hero2,Nav, Navbar, PopupWidget, Team, SectionTitle,Testimonials,Timeline ,Video, Features, } from "../components";
 
 const Home = () => {
   return (
     <>
     <section className='h-[100%]'>
-      <div id="content" className='
-    bg-[url("/assets/images/redRoofs3.png")] <div className        bg-cover w-full flex-center flex-col bg-no-repeat md:bg-[url("/assets/images/villageAndalusia.png")]  lg:h-[85vh] lg:bg-[url("/assets/images/andalusiaRedRoofs.jpg")] lg:bg-cover flex flex-wrap lg:w-[100vw]'>
+      <div id="content" className='bg-[url("/assets/images/redRoofs3.png")] <div className        bg-cover w-full flex-center flex-col bg-no-repeat md:bg-[url("/assets/images/villageAndalusia.png")]  lg:h-[85vh] lg:bg-[url("/assets/images/andalusiaRedRoofs.jpg")] lg:bg-cover flex flex-wrap lg:w-[100vw]'>
       <div className={lontoutline.className}>
       <h1 className="head_text bg-white/60 lg:bg-transparent text-center lg:text-[3rem]lg:text-left lg:ml-56">
         Wohntraum
@@ -24,7 +23,9 @@ const Home = () => {
 
       </div>
       <Feed/>
-    </section>
+  </section>
+
+  
 
     <section id="section_Timeline" className='w-[100vw] h-auto bg-slate-700'> 
     <Hero />
@@ -80,7 +81,9 @@ const Home = () => {
       </SectionTitle>
       <Faq />  
                                                                        
-      
+      <section id="section_Features" className=''>
+       <Features />
+       </section>
       
        </section>
        <section id="section_Team" className=''>
@@ -88,6 +91,8 @@ const Home = () => {
        </section>
     
        <PopupWidget />
+       
+       
     </>
   )
 }

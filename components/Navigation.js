@@ -1,21 +1,27 @@
+"use client";
+
 import { Fragment } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, Transition, Disclosure } from "@headlessui/react";
 import { BeakerIcon, BellIcon } from '@heroicons/react/24/solid'
 import { archidaught } from '../utils/fonts';
-
-import LogoImg from "@public/assets/images/LogoWA.svg";
 import Head from "next/head";
 import Script from "next/script";
+import  LogoWA from "../public/assets/images/LogoWA.svg";
+import { useEffect, useState } from "react";
+import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 
 
+
+   
+ 
 export default function NavbarDropdown() {
   const navigation = [
     { title: "Philosophie", path: "#" },
     { title: "Immobilien", path: "#" },
     { title: "Timeline", path: "#section-Timeline" },
-    { title: "BloRechtslage", path: "#" },
+    { title: "Rechtslage", path: "#" },
     { title: "Contact", path: "#" },
     {
       title: "Dropdown",
@@ -27,6 +33,8 @@ export default function NavbarDropdown() {
       ],
     },
   ];
+
+
 
   return (
     <>
@@ -41,19 +49,19 @@ export default function NavbarDropdown() {
         crossOrigin="anonymous"
       />
       <div className={archidaught.className}>
-      <div className="bg-slate-600 w-[100vw] min-h-[150px]">
+      <div className="bg-slate-600 w-[100vw] h-min-[100px,,,,.">
 
      
         <nav className=" relative flex flex-wrap items-center justify-between px-8 py-6 mx-auto lg:justify-between">
           {/* Logo  */}
-          <div className={archidaught.className}>
+  
           <Disclosure>
             {({ open }) => (
               <>
                 <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
                   <Link href="#"
                     className="w-32 sm:w-32 md:w-52 flex items-center space-x-2 text-2xl font-medium text-indigo-100 dark:text-gray-100">
-                      <Image src={LogoImg} alt="logo" />
+                      <Image src={LogoWA}  alt="logo" className=""/>
                     
                   </Link>
 
@@ -93,8 +101,9 @@ export default function NavbarDropdown() {
             )}
             
           </Disclosure>
-          </div>
-                        
+          
+          
+              
           {/* menu  */}
          
           <div className="hidden text-center lg:flex lg:items-center">
@@ -114,6 +123,7 @@ export default function NavbarDropdown() {
 const NavMenu = (props) => {
   return (
     <>
+
       
       {props.navigation.map((item, index) => {
         return (
@@ -163,15 +173,15 @@ const DropdownMenu = ({ menu, items, mobile }) => {
           <Menu.Button
             className={`flex items-center gap-x-1 transition-all rounded-md outline-none focus:outline-none ${
               open
-                ? "text-yellow-500 hover:text-gray-50 focus:bg-indigo-100 focus:text-indigo-500 dark:focus:bg-gray-800 "
-                : "text-gray-700 dark:text-gray-300 hover:text-red-500 focus:bg-red-300 dark:focus:bg-gray-800  focus:text-gray-300"
+                ? "text-gray-300 hover:text-gray-50 focus:bg-indigo-100 focus:text-indigo-500 dark:focus:bg-gray-800 "
+                : "text-amber-500 dark:text-gray-300 hover:text-gray-100 hover:bg-yellow-800 focus:bg-gray-300 dark:focus:bg-gray-800  focus:text-gray-300"
             }  ${
               mobile
                 ? "w-full px-4 py-2 -ml-4"
                 : "inline-block px-4 py-2"
             }`}>
                                   <span>{menu.title}</span>
-            <BellIcon className="w-4 h-4" />
+            <BellIcon className=" w-4 h-4" />
           </Menu.Button>
           <Transition
             as={Fragment}
@@ -195,7 +205,7 @@ const DropdownMenu = ({ menu, items, mobile }) => {
                           ${
                             active
                               ? "  text-slate-500"
-                              : "text-gray-700 dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500"
+                              : "text-gray-100 dark:text-gray-300 hover:text-yellow-500 focus:text-lemon-500"
                           }
                           `}>
                           <span> {item.title}</span>
