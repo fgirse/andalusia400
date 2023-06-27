@@ -86,6 +86,11 @@ const Home = () => {
        </section>
       
        </section>
+
+       <section id="section_Features" className=''>
+       <Features/>
+       </section>
+
        <section id="section_Team" className=''>
        <Team />
        </section>
